@@ -6,6 +6,11 @@
 \usepackage[english]{babel}
 \usepackage[shortlabels]{enumitem}
 \setlist{itemsep=1pt}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=cyan, urlcolor=blue]{hyperref}
+\usepackage{apacite}
+\usepackage{doi}
+\renewcommand{\doiprefix}{}
+\renewcommand{\doitext}{}
 
 %***HEADING
 
@@ -53,9 +58,3 @@
 \newtcbtheorem[number within=section]{theorem}{Theorem}{fonttitle=\bfseries \sffamily \color{green}, description font = \normalfont \sffamily, boxrule = 2pt, colback = green!15, colframe = green!40, coltitle = black, separator sign = ., attach title to upper, after title={.\ }}{theo}
 
 \newtcolorbox{note}[1]{fonttitle=\bfseries \sffamily, colback=orange!30, colframe = orange!60, coltitle=black, colbacktitle = orange!30, detach title, separator sign = none, after title={.\ }, title = {#1}}
-
-\usepackage[colorlinks=true, linkcolor=blue, citecolor=cyan, urlcolor=blue]{hyperref}
-\usepackage{apacite}
-\usepackage{doi}
-\renewcommand{\doiprefix}{}
-\renewcommand{\doitext}{}
