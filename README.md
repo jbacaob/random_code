@@ -1,2 +1,2 @@
 # random_code
-Personal code written in R, Python, Tex, or other coding formats.
+Personal code written in R, Python, or other coding formats.
