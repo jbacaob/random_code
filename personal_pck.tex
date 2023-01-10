@@ -7,7 +7,7 @@
 \usepackage[shortlabels]{enumitem}
 \setlist{itemsep=1pt}
 
-%*** HEADING
+%***HEADING
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -19,9 +19,7 @@
 \fancyhead[LE, LO]{\leftmark}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0pt}
-\addtolength{\headheight}{0.5pt} % espacio para la raya
-%\fancypagestyle{plain}{%
-%	\fancyhead{}}
+\addtolength{\headheight}{0.5pt}
 
 %***SECTION STYLE
 
@@ -36,15 +34,15 @@
 \titlespacing*{\subsection} {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 \titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
-%***NEW COLORED ENVIRONMENTS
+%***NEW ENVIRONMENTS
 
 \usepackage[theorems, most]{tcolorbox}
-\definecolor{darkblue}{HTML}{2342AA}
+\definecolor{blue}{HTML}{2342AA}
 \definecolor{orange}{HTML}{F1A104}
 \definecolor{green}{HTML}{00743F}
 \definecolor{yellow}{HTML}{FFDE39}
 
-\newtcbtheorem[number within=section]{definition}{Definition}{enhanced, fonttitle = \bfseries \sffamily \color{darkblue}, description font = \normalfont \sffamily, boxrule = 0pt, frame hidden, borderline west = {4pt}{0pt}{darkblue!75}, colback = darkblue!15, coltitle = black, separator sign=., attach title to upper, after title = {.\ }}{defi}
+\newtcbtheorem[number within=section]{definition}{Definition}{enhanced, fonttitle = \bfseries \sffamily \color{blue}, description font = \normalfont \sffamily, boxrule = 0pt, frame hidden, borderline west = {4pt}{0pt}{blue!75}, colback = blue!15, coltitle = black, separator sign=., attach title to upper, after title = {.\ }}{defi}
 
 \newtcbtheorem[number within=section]{remark}{Remark}{enhanced, fonttitle = \bfseries \sffamily, description font = \normalfont \sffamily, boxrule = 0pt, frame hidden, borderline west = {4pt}{0pt}{gray!75}, colback = gray!15, coltitle = black, separator sign = ., sharp corners, attach title to upper, after title = {.\ }}{rem}
 
